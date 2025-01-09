@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bubble']
+
+roboflow:
+  workspace: collegeworkspace
+  project: bubble-detection-1mjmi
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/collegeworkspace/bubble-detection-1mjmi/dataset/3
